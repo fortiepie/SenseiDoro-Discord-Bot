@@ -16,7 +16,7 @@ def run():
     dbm.setup()
 
     # bot client
-    token = os.getenv('DISCORD_TOKEN') or "0"
+    token = os.getenv('MTIzMDg3ODEyODYwMDI1NjU4Mg.GM68Gi.vEMcHdqaGCMzCDae0hyH5DnezM3OhFi9BC667s') or "0"
     shard_count = os.getenv('SHARD_COUNT') or "1"
     intents = discord.Intents.default()
 
