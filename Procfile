@@ -1,2 +1,2 @@
-web: python run_sensei.py
-worker: python run_sensei.py
+web: nohup python run_sensei.py
+worker: nohup python run_sensei.py
